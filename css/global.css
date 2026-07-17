@@ -1,0 +1,74 @@
+/* ===========================
+   ESTILOS GLOBALES
+=========================== */
+
+body {
+    font-family: var(--font);
+    background-color: var(--background);
+    color: var(--primary);
+    line-height: 1.6;
+}
+
+/* ===========================
+   CONTENEDOR PRINCIPAL
+=========================== */
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* ===========================
+   MAIN
+=========================== */
+
+main {
+    padding-top: 80px;
+}
+
+/* ===========================
+   SECCIONES
+=========================== */
+
+section {
+    padding: var(--section-padding) 0;
+}
+
+/* ===========================
+   TÍTULOS
+=========================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+p {
+    color: var(--secondary);
+}
+
+/* ===========================
+   IMÁGENES
+=========================== */
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* ===========================
+   ENLACES
+=========================== */
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+}

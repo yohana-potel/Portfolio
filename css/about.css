@@ -1,0 +1,107 @@
+/* ===========================
+   ABOUT
+=========================== */
+
+#about {
+
+    background: var(--surface);
+
+}
+
+.about-container {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.about-content {
+
+    max-width: 700px;
+
+}
+
+/* ===========================
+   SUBTÍTULO
+=========================== */
+
+.section-subtitle {
+
+    display: inline-block;
+
+    margin-bottom: 1rem;
+
+    padding: .45rem 1rem;
+
+    background: rgba(37, 99, 235, .10);
+
+    color: var(--accent);
+
+    border-radius: 999px;
+
+    font-size: .9rem;
+
+    font-weight: 600;
+
+}
+
+/* ===========================
+   TÍTULO
+=========================== */
+
+.about-content h2 {
+
+    margin-bottom: 2rem;
+
+    font-size: 2.6rem;
+
+    line-height: 1.2;
+
+}
+
+/* ===========================
+   PÁRRAFOS
+=========================== */
+
+.about-content p {
+
+    margin-bottom: 1.4rem;
+
+    color: var(--secondary);
+
+    font-size: 1.05rem;
+
+    line-height: 1.8;
+
+}
+
+/* ===========================
+   LISTA
+=========================== */
+
+.about-list {
+
+    margin-top: 2.5rem;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 1rem 2rem;
+
+}
+
+.about-list li {
+
+    display: flex;
+
+    align-items: center;
+
+    font-weight: 500;
+
+    color: var(--primary);
+
+}
