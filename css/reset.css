@@ -1,0 +1,134 @@
+
+
+
+/* ===========================
+   BOX SIZING
+=========================== */
+
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+
+}
+
+
+/* ===========================
+   MARGIN Y PADDING
+=========================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+/* ===========================
+   HTML
+=========================== */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+/* ===========================
+   BODY
+=========================== */
+
+body {
+
+    min-height: 100vh;
+
+}
+
+
+/* ===========================
+   LISTAS
+=========================== */
+
+ul,
+ol {
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+/* ===========================
+   ENLACES
+=========================== */
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+/* ===========================
+   BOTONES
+=========================== */
+
+button,
+input,
+textarea,
+select {
+
+    font: inherit;
+
+}
+
+
+/* ===========================
+   BOTONES
+=========================== */
+
+button {
+
+    border: none;
+
+    background: none;
+
+    cursor: pointer;
+
+}
+
+
+/* ===========================
+   IMÁGENES
+=========================== */
+
+img,
+picture,
+svg {
+
+    display: block;
+
+    max-width: 100%;
+
+}
+
+
+/* ===========================
+   FORMULARIOS
+=========================== */
+
+input,
+textarea,
+button,
+select {
+
+    font: inherit;
+
+}

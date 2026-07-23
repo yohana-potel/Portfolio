@@ -1,0 +1,75 @@
+/* ===========================
+   CONTACT
+=========================== */
+
+#contact {
+
+    background: var(--surface);
+
+    text-align: center;
+
+}
+
+.contact-container {
+
+    max-width: 750px;
+
+}
+
+.contact-button {
+
+    display: inline-block;
+
+    margin-top: 2rem;
+
+    padding: 1rem 2rem;
+
+    border-radius: 12px;
+
+    background: var(--accent);
+
+    color: #fff;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.contact-button:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: var(--shadow);
+
+}
+
+.contact-links {
+
+    margin-top: 3rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 2rem;
+
+    flex-wrap: wrap;
+
+}
+
+.contact-links a {
+
+    color: var(--secondary);
+
+    font-weight: 500;
+
+    transition: .3s;
+
+}
+
+.contact-links a:hover {
+
+    color: var(--accent);
+
+}

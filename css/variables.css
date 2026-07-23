@@ -1,0 +1,85 @@
+/* ===========================
+   VARIABLES GLOBALES
+=========================== */
+
+:root {
+
+    /* ===========================
+       COLORES - MODO CLARO
+    =========================== */
+
+    --background: #FAFAF9;
+
+    --surface: #FFFFFF;
+
+    --primary: #102A43;
+
+    --secondary: #486581;
+
+    --accent: #0F766E;
+
+    --accent-hover: #115E59;
+
+    --border: #E7E5E4;
+
+    --tag-background: #E6F4F1;
+
+    --button-text: #FFFFFF;
+
+
+    /* ===========================
+       TIPOGRAFÍA
+    =========================== */
+
+    --font: 'Inter', sans-serif;
+
+
+    /* ===========================
+       ESPACIADO
+    =========================== */
+
+    --section-padding: 100px;
+
+
+    /* ===========================
+       BORDES
+    =========================== */
+
+    --radius: 18px;
+
+
+    /* ===========================
+       SOMBRAS
+    =========================== */
+
+    --shadow:
+        0 10px 30px rgba(0, 0, 0, 0.08);
+
+}
+
+
+/* ===========================
+   MODO OSCURO
+=========================== */
+
+[data-theme="dark"] {
+
+    --background: #0B1120;
+
+    --surface: #111827;
+
+    --primary: #F8FAFC;
+
+    --secondary: #94A3B8;
+
+    --accent: #2DD4BF;
+
+    --accent-hover: #5EEAD4;
+
+    --border: #1E293B;
+
+    --tag-background: #123B3A;
+
+    --button-text: #06201D;
+
+}

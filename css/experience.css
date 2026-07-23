@@ -1,0 +1,177 @@
+/* ===========================
+   EXPERIENCE
+=========================== */
+
+#experience {
+
+    background: var(--background);
+
+}
+
+/* ===========================
+   TIMELINE
+=========================== */
+
+.experience-timeline {
+
+    margin-top: 4rem;
+
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.experience-item {
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    padding: 3rem;
+
+    box-shadow: var(--shadow);
+
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.experience-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 2rem;
+
+}
+
+.experience-header h3 {
+
+    font-size: 1.6rem;
+
+}
+
+.experience-header span {
+
+    padding: .5rem 1rem;
+
+    background: rgba(37,99,235,.08);
+
+    color: var(--accent);
+
+    border-radius: 999px;
+
+    font-weight: 600;
+
+}
+
+/* ===========================
+   DESCRIPTION
+=========================== */
+
+.experience-item p {
+
+    margin-bottom: 2rem;
+
+    color: var(--secondary);
+
+    line-height: 1.8;
+
+}
+
+/* ===========================
+   SUBTITLE
+=========================== */
+
+.experience-item h4 {
+
+    margin-bottom: 1rem;
+
+    font-size: 1.2rem;
+
+}
+
+/* ===========================
+   LIST
+=========================== */
+
+.experience-item ul {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+    gap: 1rem 2rem;
+
+    margin-bottom: 2rem;
+
+}
+
+.experience-item li {
+
+    position: relative;
+
+    padding-left: 1.3rem;
+
+    color: var(--secondary);
+
+}
+
+.experience-item li::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    top: 10px;
+
+    width: 6px;
+
+    height: 6px;
+
+    border-radius: 50%;
+
+    background: var(--accent);
+
+}
+
+/* ===========================
+   TECHNOLOGIES
+=========================== */
+
+.experience-technologies {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: .8rem;
+
+}
+
+.experience-technologies span {
+
+    padding: .5rem 1rem;
+
+    background: rgba(37,99,235,.08);
+
+    color: var(--accent);
+
+    border-radius: 999px;
+
+    font-size: .85rem;
+
+    font-weight: 600;
+
+}
